@@ -1,0 +1,39 @@
+body {
+    transition: background-color 0.05s ease;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+button {
+    padding: 13px 31px;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    cursor:auto;
+    border:0.5px solid black;
+    border-radius: 50px;
+    background-color:orange;
+    color: white;
+    box-shadow: 50px 50px 50px white ;
+}
+
+button:hover {
+    background-color: yellowgreen;
+}
+button:active{
+    background-color: blueviolet;
+} 
+div{
+    position:fixed;
+    bottom: 0px;
+    right: 5px;
+    
+
+    
+    color: black;
+    font-size: 17px;
+    text-shadow: 10px 10px 10px white;
+    font-family: 'Times New Roman', Times, serif;}
